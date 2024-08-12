@@ -1,0 +1,155 @@
+{
+  /**
+   * Better Defaults
+   **/
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  //   "editor.emptySelectionClipboard": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "window.newWindowDimensions": "inherit",
+  "workbench.editor.enablePreview": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none",
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+
+  /**
+   * Silence The Noise
+   */
+  //   "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  /**
+   * Typography
+   **/
+  //   "workbench.colorTheme": "Palenight Italic",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontFamily": "FiraCode",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "workbench.iconTheme": "vscode-icons",
+
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 0,
+  "editor.suggestFontSize": 15,
+  "editor.suggestLineHeight": 28,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.5,
+
+  /**
+   * Find
+   **/
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    // Hide everything in /venv or /env (common virtual environments) except specific folders.
+    "**/{venv,env}/lib/python*/site-packages/{[^s],?[^i]}*": true,
+    // Hide everything in /build, except the "main.py" or specific important scripts.
+    "**/build/{[^m],?[^a]}*": true,
+    // Hide everything in /public, except "index.js"
+    "**/public/{[^i],?[^n]}*": true,
+    // Hide common Django directories and files.
+    "**/migrations": true,
+    "**/staticfiles": true,
+    "**/media": true,
+    "**/db.sqlite3": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
+    "**/.tox": true,
+    "**/.coverage": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/pip-log.txt": true,
+    "**/Pipfile.lock": true,
+    "**/package-lock.json": true,
+    "logs": true
+  },
+
+  "vim.handleKeys": { "<C-f>": false },
+
+  /**
+   * Python
+   **/
+  "python.analysis.autoImportCompletions": true,
+
+  "python.analysis.indexing": true,
+
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "django",
+
+      "depth": 20,
+
+      "includeAllSymbols": true
+    },
+
+    {
+      "name": "rest_framework",
+
+      "depth": 20,
+
+      "includeAllSymbols": true
+    }
+  ],
+
+  /**
+   * Git
+   **/
+  "git.confirmSync": false,
+
+  /**
+   * Github Copilot
+   **/
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "python": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "notebook.find.filters": {
+    "markupSource": true,
+    "markupPreview": true,
+    "codeSource": true,
+    "codeOutput": true
+  },
+
+  /**
+   * Window Settings
+   **/
+  "window.menuBarVisibility": "hidden",
+  "window.restoreFullscreen": true
+}
