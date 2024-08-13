@@ -95,7 +95,7 @@
     "logs": true
   },
 
-  "vim.handleKeys": { "<C-f>": false },
+  "vim.handleKeys": { "<C-f>": false, "<C-p>": false, },
 
   /**
    * Python
