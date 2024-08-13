@@ -20,7 +20,7 @@
   "workbench.editor.showTabs": "none",
   "editor.guides.indentation": false,
   "editor.minimap.enabled": false,
-  "editor.lineNumbers": "off",
+  //   "editor.lineNumbers": "off",
 
   /**
    * Silence The Noise
@@ -95,7 +95,21 @@
     "logs": true
   },
 
-  "vim.handleKeys": { "<C-f>": false, "<C-p>": false, },
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-p>": false,
+    "<C-s>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-c>": false,
+    "<C-a>": false,
+    "<C-w>": false,
+    "<C-q>": false,
+    "<C-n>": false,
+    "<C-t>": false,
+    "<C-z>": false,
+    "<C-r>": false,
+  },
 
   /**
    * Python
@@ -121,7 +135,7 @@
       "includeAllSymbols": true
     }
   ],
-  
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -137,7 +151,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  
 
   /**
    * Git
