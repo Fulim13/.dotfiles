@@ -3,7 +3,6 @@
    * Better Defaults
    **/
   "editor.copyWithSyntaxHighlighting": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -11,7 +10,6 @@
   //   "editor.emptySelectionClipboard": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
-  "window.newWindowDimensions": "inherit",
   "workbench.editor.enablePreview": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -27,7 +25,7 @@
   /**
    * Silence The Noise
    */
-  //   "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
   "editor.hover.enabled": false,
   "editor.matchBrackets": "never",
@@ -123,6 +121,23 @@
       "includeAllSymbols": true
     }
   ],
+  
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  
 
   /**
    * Git
@@ -148,8 +163,9 @@
   },
 
   /**
-   * Window Settings
+   * Window Settings for Windows
    **/
+  "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "hidden",
   "window.restoreFullscreen": true
 }
