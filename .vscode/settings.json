@@ -59,8 +59,8 @@
 
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 0,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 1.5,
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
   "terminal.integrated.fontSize": 15,
@@ -143,7 +143,7 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
@@ -162,6 +162,11 @@
     "editor.defaultFormatter": "ms-python.autopep8"
   },
 
+  "notebook.output.wordWrap": true,
+  "notebook.defaultFormatter": "ms-python.autopep8",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.formatOnCellExecution": true,
+
   /**
    * Git
    **/
@@ -175,7 +180,7 @@
     "plaintext": true,
     "markdown": true,
     "scminput": true,
-    "python": true
+    "python": false
   },
   "github.copilot.editor.enableAutoCompletions": true,
   "notebook.find.filters": {
