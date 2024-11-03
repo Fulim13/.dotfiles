@@ -123,7 +123,7 @@
     {
       "name": "django",
 
-      "depth": 20,
+      "depth": 30,
 
       "includeAllSymbols": true
     },
@@ -131,7 +131,7 @@
     {
       "name": "rest_framework",
 
-      "depth": 20,
+      "depth": 30,
 
       "includeAllSymbols": true
     }
@@ -180,7 +180,7 @@
     "plaintext": true,
     "markdown": true,
     "scminput": true,
-    "python": false
+    "python": true
   },
   "github.copilot.editor.enableAutoCompletions": true,
   "notebook.find.filters": {

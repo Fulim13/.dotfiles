@@ -17,3 +17,5 @@
 	ll = log --oneline
 [core]
 	editor = code --wait
+[init]
+	defaultBranch = main
