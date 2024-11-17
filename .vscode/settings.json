@@ -59,7 +59,7 @@
 
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.fontSize": 20,
+  "editor.fontSize": 15,
   "editor.lineHeight": 0,
   "editor.suggestFontSize": 15,
   "editor.suggestLineHeight": 28,
