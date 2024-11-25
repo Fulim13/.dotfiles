@@ -161,8 +161,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-
-  "notebook.output.wordWrap": true,
   "notebook.defaultFormatter": "ms-python.autopep8",
   "notebook.formatOnSave.enabled": true,
   "notebook.formatOnCellExecution": true,
@@ -195,5 +193,7 @@
    **/
   "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "hidden",
-  "window.restoreFullscreen": true
+  "window.restoreFullscreen": true,
+  "notebook.output.wordWrap": true,
+  "notebook.output.scrolling": true
 }

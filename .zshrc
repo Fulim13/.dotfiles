@@ -10,7 +10,8 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="$PATH:$HOME/miniconda3/bin:$HOME/.local/bin"
+export PATH="/usr/local/cuda-12.6/bin:$PATH:$HOME/miniconda3/bin:$HOME/.local/bin"
+export LD_LIBRARY_PATH="/usr/local/cuda-12.6/lib64:$LD_LIBRARY_PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
